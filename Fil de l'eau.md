@@ -28,6 +28,7 @@ Erreur persistant
 Finalement creation de BDD via mariadb et abandon de gestion de BDD via phpmyadmin
 
 
-**Server down **
+**Server down**
+
 ERROR 503 :
-    Resolution : Redemarrage Serveur
+> Resolution : Redemarrage Serveur
