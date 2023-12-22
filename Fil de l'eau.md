@@ -3,7 +3,7 @@
 Erreur sur la liason entre apache et pyramid
 résolu en modifiant le fichier /etc/apache2/sites-available/000-default.conf
 
-en rajoutant 
+_en rajoutant_
 
     ServerName example.com.com
     
