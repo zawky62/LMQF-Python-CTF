@@ -1,3 +1,5 @@
+**Accessibilité Externe**
+
 Erreur sur la liason entre apache et pyramid
 résolu en modifiant le fichier /etc/apache2/sites-available/000-default.conf
 
@@ -12,10 +14,9 @@ en rajoutant
 
 Executant les commandes suivantes :
 
-```
-sudo a2enmod proxy
-sudo a2enmod proxy_http
-```
+> sudo a2enmod proxy
+> sudo a2enmod proxy_http
+
 
 Et restart le service apache
 
@@ -25,3 +26,8 @@ Probleme phpmyadmin aucun accès a la BDD erreur de php assez long, tentative d'
 Erreur persistant
 
 Finalement creation de BDD via mariadb et abandon de gestion de BDD via phpmyadmin
+
+
+**Server down **
+ERROR 503 :
+    Resolution : Redemarrage Serveur
